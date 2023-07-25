@@ -1,0 +1,75 @@
+html{
+    background-image: url(suministros-oficina-coloridos-espacio-copia-medio_24837-375\ \(1\).png);
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+table {
+    width: 100%;
+    border-collapse:  collapse;
+    border: 2px solid #0d0000;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 25%;
+    box-shadow:  0 0 5px rgba(0, 161, 27);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+    border: 1.5px solid #040404
+}
+tbody tr:nth-child(even) {
+    background-color: #fff;
+    border: 1.5px solid #040404; 
+}
+thead th{
+    background-color: rgb(154, 121, 220);
+    color: #fff; 
+    padding:  10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+}
+
+tbody tr:hover {
+    background-color: #dddd;
+    transition: background-color 0.3s ease;
+}
+
+
+tbody tr.active {
+    background-color: #a9a9a9;
+    transition: background-color 0.3s ease;
+}
+
+h1 {
+text-align: center;
+margin-top: 50px;
+color: transparent;
+font-size: 500%;
+font-display: auto;
+font-family: sans-serif;
+font-weight: 800;
+
+}
+
+
+/* Estilo del texto con borde */
+.bordered-text {
+    font-size: 115px; /* Tamaño de fuente (ajusta según tus necesidades) */
+    font-weight: bold; /* Peso de la fuente (opcional) */
+    -webkit-text-stroke: 3px black; /* Borde para navegadores basados en WebKit */
+    color: transparent; /* Color de texto transparente */
+    background-image: url(confetti.gif);
+    background-position: center ;
+    -webkit-background-clip: text ;
+  }
+
+#gif {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 40%;
+    width: 20%;
+}
